@@ -20,7 +20,7 @@ client.on('ready', () => {
 
 // Mention everyone
 client.on('message', async (msg) => {
-  console.log(`${msg.author} sent ${msg.body}`);
+  console.log("message recieved");
 
   if(msg.body === '@everyone') {
       const chat = await msg.getChat();
