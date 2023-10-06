@@ -5,8 +5,7 @@ const axios = require('axios');
 const client = new Client({
         puppeteer: {
                 args: ['--no-sandbox'],
-        },
-        authStrategy: new LocalAuth("/root/wabot")
+        }
 })
 
 
