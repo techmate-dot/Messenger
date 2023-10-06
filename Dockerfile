@@ -13,5 +13,5 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 WORKDIR /app
 COPY . /app
 RUN npm install
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
 EXPOSE 8080
